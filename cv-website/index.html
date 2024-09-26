@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Asyfa Miftahul Huda - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="sipek.jpg" alt="Profile Picture">
+                <h1>Asyfa Miftahul Huda</h1>
+                <p>Web Developer | Designer | Creative Enthusiast</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                🔭 I’m currently study on SMK Telkom Malang
+                🌱 I’m currently learning coding
+                👯 I’m looking to collaborate on google
+                📫 How to reach me: @siipaakygy
+                😄 Pronouns: he/him
+                ⚡ Fun fact: I like sport
+            </p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fas fa-code"></i> HTML & CSS</li>
+                <li><i class="fas fa-code"></i> JavaScript</li>
+                <li><i class="fas fa-code"></i> React.js</li>
+                <li><i class="fas fa-paint-brush"></i> Figma</li>
+                <li><i class="fas fa-edit"></i> Photoshop</li>
+                <li><i class="fas fa-edit"></i> Laravel</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Web Developer - ABC Company</h3>
+                <p>2019 - Present</p>
+                <p>Developed responsive websites and optimized them for performance, working closely with designers and other developers.</p>
+            </div>
+            <div class="job">
+                <h3>Freelance Designer</h3>
+                <p>2017 - 2019</p>
+                <p>Designed and developed web interfaces for small businesses and individual clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>SMK Telkom Malang</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Contact:hudaasifa81@gmail.com | +62 8135 8880 579</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>© 2024 Asyfa Miftahul Huda</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<script>
+    window.addEventListener('scroll', () => {
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < window.innerHeight - 100) {
+                section.classList.add('active');
+            }
+        });
+    });
+</script>
+
